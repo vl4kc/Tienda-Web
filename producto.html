@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preload" href="/CSS/style.css" as="style">
+    <link rel="stylesheet" href="/CSS/style.css">
+
+    <title>Tienda - Web</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="/img/logo.png" alt="logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="/index.html">Tienda</a>
+        <a class="navegacion__enlace " href="/nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>React JS</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="/img/3.jpg" alt="Imagen Del Producto" >
+            <div class="camisa__container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sed mollitia sunt beatae aspernatur cumque quis nam hic rem! Incidunt, tempora aperiam perspiciatis quidem similique velit! Reprehenderit libero unde asperiores.</p>
+
+                <form action="" class="formulario"> 
+                    <select class="formulario__campo">
+                        <option disabled selected>--Seleccionar Talla--</option>
+                        <option value="">Chica</option>
+                        <option value="">Mediana</option>
+                        <option value="">Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Tienda Web - Todos los derechos Reservados 2024.
+        </p>
+    </footer>
+</body>
+
+</html>
